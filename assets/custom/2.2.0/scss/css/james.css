@@ -1,0 +1,38 @@
+/* Main Photo */
+.photo-03 {
+  background: url("../../images/layouts/james/userpics/userpic06.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px; }
+
+/* Timeline */
+.timeline-james-01,
+.timeline-james-02,
+.timeline-james-03,
+.timeline-james-04 {
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+.timeline-james-01 {
+  background: url("../../images/layouts/james/timeline/01.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-james-02 {
+  background: url("../../images/layouts/james/timeline/02.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-james-03 {
+  background: url("../../images/layouts/james/timeline/03.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.timeline-james-04 {
+  background: url("../../images/layouts/james/timeline/04.jpg");
+  background-position: center;
+  background-size: cover; }
+
+/*# sourceMappingURL=james.css.map */

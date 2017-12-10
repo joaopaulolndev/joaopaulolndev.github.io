@@ -1,0 +1,119 @@
+/*------------------------------------------------------------------
+[Buttons]
+*/
+
+
+
+/* Button Types */
+.btn-darker,
+.btn-blk,
+.btn-gr,
+.btn-lgr,
+.btn-lgr-str,
+.btn-grey-str,
+.btn-light,
+.btn-wh,
+.btn-wh-str,
+.btn-rd,
+.btn-rd-str,
+.btn-wh-trans {
+  letter-spacing: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  font-family: $font-regular;
+  margin-right: 12px;
+
+  padding: 8px 24px;
+
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  &:focus {outline: none;}
+}
+.btn-darker {
+  border: 1px solid $color19;
+  background: $color19;
+  color: $color01 !important;;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;;  }
+}
+.btn-blk {
+  border: 1px solid #353535;
+  background: #353535;
+  color: $color15 !important;;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;;  }
+  &:focus {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;;  }
+}
+.btn-gr {
+  border: 1px solid transparent;
+  color: $color08 !important;;
+  background: #505050;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;;  }
+}
+.btn-lgr {
+  border: 1px solid $color04;
+  background: $color04;
+  color: $color01 !important;;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;;  }
+}
+.btn-lgr-str {
+  background:  none;
+  border: 2px solid $color06;
+  color: $color07 !important;;
+  &:hover {  background: none; border: 2px solid $hovercolor; color: $hovercolor !important;  }
+  &:focus {  background: none; border: 2px solid $hovercolor; color: $hovercolor !important;  }
+}
+.btn-grey-str {
+  background:  none !important;
+  border: 2px solid $color09;
+  color: $color09 !important;;
+  &:hover {  background: none; border: 2px solid $hovercolor; color: $hovercolor !important;;  }
+}
+.btn-light {
+  background:  $color03;
+  border: 1px solid $color03;
+  color: $color09 !important;
+  &:hover {  background: $hovercolor; border: 1px solid $hovercolor; color: $color01 !important;;  }
+}
+.btn-wh-str {
+  background:  none;
+  border: 2px solid $color01;
+  color: $color01 !important;;
+  &:hover {  background: none; border: 2px solid $hovercolor; color: $hovercolor !important;  }
+}
+.btn-wh {
+  background: $color01;
+  border: 2px solid $color01;
+  color: $color09 !important;;
+  &:hover {  background: $hovercolor; border: 2px solid $hovercolor; color: $color01 !important;  }
+}
+.btn-rd {
+  border: 1px solid $hovercolor;
+  color: $color01 !important;;
+  background: $hovercolor;
+  &:hover {  border: 1px solid #ec1717; background: #ec1717; color: $color01 !important;;  }
+}
+.btn-rd-str {
+  background:  none;
+  border: 2px solid $hovercolor;
+  color: $hovercolor !important;;
+  &:hover {  background: none; border: 2px solid $color01; color: $color01 !important;  }
+}
+.btn-wh-trans {
+  margin-top: 8px;
+  background: rgba(255,255,255, .1);
+  border: 1px solid transparent;
+  color: rgba(255,255,255, .8) !important;
+  &:hover {
+    background: rgba(255,255,255, .3);
+    //border: 1px solid $red;
+    color: $color01 !important;  }
+}
+
+
+/* Button Sizes */
+.btn-lg {font-size: 15px;}
+.btn-default {font-size: 13px;}
+.btn-sm {font-size: 12px;}
+.btn-xs {font-size: 11px; padding: 3px 9px 2px 9px;}

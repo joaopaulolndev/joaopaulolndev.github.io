@@ -1,0 +1,473 @@
+/* Mark */
+/* Colors */
+/*------------------------------------------------------------------
+[Color Scheme / Colors, textures]
+*/
+.e-bg-light-texture {
+  background: url("../images/backgrounds/dark_fish_skin.png"); }
+
+/* Color Classes */
+.color01 {
+  color: #ffffff !important; }
+
+.color02 {
+  color: #f7f7f7 !important; }
+
+.color03 {
+  color: #efefef !important; }
+
+.color04 {
+  color: #e7e7e7 !important; }
+
+.color05 {
+  color: #dfdfdf !important; }
+
+.color06 {
+  color: #d7d7d7 !important; }
+
+.color07 {
+  color: #cfcfcf !important; }
+
+.color08 {
+  color: #c7c7c7 !important; }
+
+.color09 {
+  color: #bfbfbf !important; }
+
+.color10 {
+  color: #b7b7b7 !important; }
+
+.color11 {
+  color: #afafaf !important; }
+
+.color12 {
+  color: #a7a7a7 !important; }
+
+.color13 {
+  color: #9f9f9f !important; }
+
+.color14 {
+  color: #979797 !important; }
+
+.color15 {
+  color: #8f8f8f !important; }
+  .color15 a {
+    color: #8f8f8f; }
+    .color15 a:hover {
+      color: #e74c3c; }
+
+.color16 {
+  color: #878787 !important; }
+
+.color17 {
+  color: #7f7f7f !important; }
+
+.color18 {
+  color: #777777 !important; }
+
+.color19 {
+  color: #6f6f6f !important; }
+
+.color20 {
+  color: #676767 !important; }
+
+.color21 {
+  color: #5f5f5f !important; }
+
+.color22 {
+  color: #575757 !important; }
+
+.color23 {
+  color: #4f4f4f !important; }
+
+.color24 {
+  color: #474747 !important; }
+
+.color25 {
+  color: #3f3f3f !important; }
+
+.color26 {
+  color: #373737 !important; }
+
+.color27 {
+  color: #2f2f2f !important; }
+
+.color28 {
+  color: #272727 !important; }
+
+.color29 {
+  color: #1f1f1f !important; }
+
+.color30 {
+  color: #171717 !important; }
+
+.color31 {
+  color: #0f0f0f !important; }
+
+.color32 {
+  color: #070707 !important; }
+
+.color-red {
+  color: #e74c3c !important; }
+
+.color-orange {
+  color: #e67e22 !important; }
+
+.color-green {
+  color: #1abc9c !important; }
+
+.color-blue {
+  color: #3498db !important; }
+
+.color-darkblue {
+  color: #1c4a6c !important; }
+
+.color-cyan {
+  color: #9b59b6 !important; }
+
+.color-yellow {
+  color: #d9a81d !important; }
+
+.color-rose {
+  color: #e798ac !important; }
+
+.color-darkrose {
+  color: #e17f98 !important; }
+
+.red {
+  background-color: #e74c3c !important; }
+
+.orange {
+  background-color: #e67e22 !important; }
+
+.green {
+  background-color: #1abc9c !important; }
+
+.blue {
+  background-color: #3498db !important; }
+
+.darkblue {
+  background-color: #1c4a6c !important; }
+
+.cyan {
+  background-color: #9b59b6 !important; }
+
+.yellow {
+  background-color: #d9a81d !important; }
+
+.l-grey {
+  background-color: #f2f2f2 !important; }
+
+.grey {
+  background-color: #999 !important; }
+
+/*Font/link Colors */
+.fontcolor-regular, .fontcolor-regular a {
+  color: #171717 !important; }
+
+.fontcolor-invert, .fontcolor-invert a {
+  color: #ffffff !important; }
+
+.fontcolor-medium, .fontcolor-medium a {
+  color: #676767 !important; }
+
+.fontcolor-medium-light {
+  color: #8f8f8f !important; }
+  .fontcolor-medium-light a {
+    color: #8f8f8f !important; }
+    .fontcolor-medium-light a:hover, .fontcolor-medium-light a:focus {
+      color: #e74c3c !important; }
+
+.hovercolor, .hovercolor a {
+  color: #e74c3c !important; }
+
+.accent-color, .accent-color a {
+  color: #007EA7 !important; }
+
+.accent-color a:hover {
+  color: #e74c3c !important; }
+
+/*Background Color Classes */
+.bg-color01 {
+  background-color: #ffffff !important; }
+
+.bg-color02 {
+  background-color: #f7f7f7 !important; }
+
+.bg-color03 {
+  background-color: #efefef !important; }
+
+.bg-color04 {
+  background-color: #e7e7e7 !important; }
+
+.bg-color05 {
+  background-color: #dfdfdf !important; }
+
+.bg-color06 {
+  background-color: #d7d7d7 !important; }
+
+.bg-color07 {
+  background-color: #cfcfcf !important; }
+
+.bg-color08 {
+  background-color: #c7c7c7 !important; }
+
+.bg-color09 {
+  background-color: #bfbfbf !important; }
+
+.bg-color10 {
+  background-color: #b7b7b7 !important; }
+
+.bg-color11 {
+  background-color: #afafaf !important; }
+
+.bg-color12 {
+  background-color: #a7a7a7 !important; }
+
+.bg-color13 {
+  background-color: #9f9f9f !important; }
+
+.bg-color14 {
+  background-color: #979797 !important; }
+
+.bg-color15 {
+  background-color: #8f8f8f !important; }
+
+.bg-color16 {
+  background-color: #878787 !important; }
+
+.bg-color17 {
+  background-color: #7f7f7f !important; }
+
+.bg-color18 {
+  background-color: #777777 !important; }
+
+.bg-color19 {
+  background-color: #6f6f6f !important; }
+
+.bg-color20 {
+  background-color: #676767 !important; }
+
+.bg-color21 {
+  background-color: #5f5f5f !important; }
+
+.bg-color22 {
+  background-color: #575757 !important; }
+
+.bg-color23 {
+  background-color: #4f4f4f !important; }
+
+.bg-color24 {
+  background-color: #474747 !important; }
+
+.bg-color25 {
+  background-color: #3f3f3f !important; }
+
+.bg-color26 {
+  background-color: #373737 !important; }
+
+.bg-color27 {
+  background-color: #2f2f2f !important; }
+
+.bg-color28 {
+  background-color: #272727 !important; }
+
+.bg-color29 {
+  background-color: #1f1f1f !important; }
+
+.bg-color30 {
+  background-color: #171717 !important; }
+
+.bg-color31 {
+  background-color: #0f0f0f !important; }
+
+.bg-color32 {
+  background-color: #070707 !important; }
+
+.dark .title, .dark p {
+  color: #ffffff; }
+.dark .subtitle {
+  color: #8f8f8f; }
+
+#mark {
+  padding: 18px;
+  /* Main Photo */
+  /* Timeline */ }
+  #mark .vc-photo.photo-05 {
+    background: url("../../images/layouts/mark/userpics/userpic08.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px; }
+  #mark .timeline-mark-01,
+  #mark .timeline-mark-02,
+  #mark .timeline-mark-03,
+  #mark .timeline-mark-04 {
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
+  #mark .timeline-mark-01 {
+    background: url("../../images/layouts/mark/timeline/01.jpg");
+    background-position: center;
+    background-size: cover; }
+  #mark .timeline-mark-02 {
+    background: url("../../images/layouts/mark/timeline/02.jpg");
+    background-position: center;
+    background-size: cover; }
+  #mark .timeline-mark-03 {
+    background: url("../../images/layouts/mark/timeline/03.jpg");
+    background-position: center;
+    background-size: cover; }
+  #mark .timeline-mark-04 {
+    background: url("../../images/layouts/mark/timeline/04.jpg");
+    background-position: center;
+    background-size: cover; }
+  #mark #top-navigation .vc-photo {
+    min-height: 300px; }
+  #mark #top-navigation .vc-name .name .name-title {
+    display: table;
+    min-height: 200px; }
+    #mark #top-navigation .vc-name .name .name-title h1 {
+      font-size: 24px; }
+    #mark #top-navigation .vc-name .name .name-title h2 {
+      font-size: 18px; }
+    #mark #top-navigation .vc-name .name .name-title .cd-intro {
+      width: 100%; }
+  #mark #top-navigation .vc-name .position .position-title {
+    display: table;
+    padding: 23px 40px 23px 40px;
+    height: 120px; }
+    #mark #top-navigation .vc-name .position .position-title .cd-intro {
+      width: 100%; }
+  #mark #top-navigation .menuitem {
+    min-height: 150px; }
+    #mark #top-navigation .menuitem a i {
+      padding-top: 36px;
+      font-weight: 100 !important; }
+      #mark #top-navigation .menuitem a i:before {
+        font-size: 28px;
+        font-weight: 100 !important; }
+    #mark #top-navigation .menuitem a span {
+      font-size: 12px;
+      font-weight: 700; }
+  #mark #top-navigation .hvr-sweep-to-bottom:before {
+    height: 150px; }
+  #mark .cd-headline.clip span {
+    white-space: nowrap; }
+  #mark .social-network {
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 1px 1px 0 0 !important;
+    float: left;
+    text-align: center; }
+    #mark .social-network a {
+      color: #c7c7c7;
+      line-height: 43px; }
+      #mark .social-network a i:before {
+        margin: 0 10px;
+        color: #ffffff;
+        font-size: 16px; }
+    #mark .social-network a.hvr-sweep-to-right {
+      display: block; }
+      #mark .social-network a.hvr-sweep-to-right:before {
+        height: 40px !important;
+        width: 40px !important; }
+  #mark .cv-pdf {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: 1px 1px 0 0 !important;
+    float: left;
+    text-align: center; }
+    #mark .cv-pdf a {
+      color: #c7c7c7; }
+      #mark .cv-pdf a i:before {
+        margin: 0 10px;
+        color: #ffffff; }
+    #mark .cv-pdf a.hvr-sweep-to-right {
+      display: block; }
+      #mark .cv-pdf a.hvr-sweep-to-right:before {
+        height: 60px !important;
+        width: 60px !important; }
+  #mark .p-grid-item .p-icon {
+    left: 0;
+    width: 10px;
+    top: 15px; }
+  #mark .p-grid-item span {
+    padding-left: 0; }
+  #mark footer {
+    margin-top: 32px !important; }
+    #mark footer .footer-widget {
+      padding-right: 24px; }
+      #mark footer .footer-widget h5 {
+        font-size: 14px;
+        font-weight: 700; }
+      #mark footer .footer-widget p {
+        line-height: 1.5em; }
+    #mark footer .p-icon {
+      position: relative;
+      width: 60px;
+      height: 10px;
+      left: 0;
+      top: 0; }
+  #mark .inner-content .inner-section {
+    padding: 0; }
+  #mark #resume, #mark #portfolio, #mark #portfolio2, #mark #contacts, #mark #feedback, #mark #portfolio-item-page, #mark #blog, #mark #blogpost {
+    background: none; }
+  #mark ul.timeline-vert:before {
+    left: 40px !important; }
+  #mark ul.timeline-vert > li > .timeline-panel {
+    width: calc(100% - 90px) !important;
+    width: -moz-calc(100% - 90px) !important;
+    width: -webkit-calc(100% - 90px) !important; }
+  #mark ul.timeline-vert > li > .timeline-badge {
+    left: 15px !important;
+    margin-left: 0 !important;
+    top: 16px !important; }
+  #mark ul.timeline-vert > li > .timeline-panel {
+    float: right !important; }
+  #mark ul.timeline-vert > li > .timeline-panel:before {
+    border-left-width: 0 !important;
+    border-right-width: 15px !important;
+    left: -15px !important;
+    right: auto !important; }
+  #mark ul.timeline-vert > li > .timeline-panel:after {
+    border-left-width: 0 !important;
+    border-right-width: 14px !important;
+    left: -14px !important;
+    right: auto !important; }
+  #mark .port-filter-light ul li a {
+    background: transparent; }
+    #mark .port-filter-light ul li a:hover, #mark .port-filter-light ul li a:focus {
+      background: #e74c3c; }
+  #mark .grid-row-5 {
+    margin-right: -5px;
+    margin-left: -5px; }
+  @media (max-width: 991px) {
+    #mark .flex-column {
+      width: 50% !important; }
+    #mark .social-network {
+      display: inline-block;
+      width: 50%;
+      margin: 0 0 1px 0 !important; }
+      #mark .social-network a.hvr-sweep-to-right:before {
+        width: 100% !important; }
+    #mark .cv-pdf {
+      width: 100%; }
+    #mark #personal-2.flex-column {
+      width: 100% !important; } }
+  @media (max-width: 767px) {
+    #mark .grid-row-5 {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (max-width: 543px) {
+    #mark ul.timeline-vert > li > .timeline-panel {
+      float: none !important;
+      width: 100% !important; }
+    #mark #top-navigation .menuitem {
+      min-height: 66px; } }
+
+/*# sourceMappingURL=mark.css.map */

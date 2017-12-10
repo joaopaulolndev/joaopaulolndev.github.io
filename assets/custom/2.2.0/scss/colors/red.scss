@@ -1,0 +1,261 @@
+/* Colors */
+@import "../colors.scss";
+
+/* UI Color Set --------------------------------------------- */
+
+/* Backgrounds */
+.ui-bg-color01   {background-color: #DA5552 !important;}
+.ui-bg-color02   {background-color: #CC444B !important;}
+.boxed {  background-image: url('../../images/backgrounds/denim.png');  }
+
+/* Blocks */
+.ui-block-color01   {background-color: #fff3ee !important;}
+.ui-block-color02   {background-color: #f9ede8 !important;}
+.ui-block-color03   {background-color: #f9e5e0 !important;}
+.ui-block-color04   {background-color: #fff3ee !important;}
+
+/* Menu */
+.ui-menu-color01 {background-color: #d0454c !important;}
+.ui-menu-color02 {background-color: #d8464d !important;}
+.ui-menu-color03 {background-color: #e0454c !important;}
+.ui-menu-color04 {background-color: #e8464d !important;}
+.ui-menu-color05 {background-color: #ee474e !important;}
+.ui-menu-color06 {background-color: #f3474e !important;}
+
+/* Navigation */
+#top-navigation {
+  .ident {
+    .vc-name {
+      .position {
+        .pdf {  background: rgba(0, 0, 0, 0.05);  }
+        .position-title {  background: rgba(0, 0, 0, 0.02);  }
+      }
+      .name .name-pdf {  background: rgba(0, 0, 0, 0.03);  }
+    }
+  }
+}
+
+/* Menu Hover Effects */
+.hvr-sweep-to-bottom:before {  background: rgba(0, 0, 0, 0.03);  }
+.hvr-sweep-to-right:before {  background: rgba(0, 0, 0, 0.03);  }
+
+/* Personal Details */
+#details i::before {color: #D999B9;}
+#details.dark {
+  h3, h4, h5 {color: $color30 !important;}
+  p {color: $color25 !important;}
+}
+
+/* Pro Experience */
+#pro-experience.dark {
+  h3 {color: $color30;}
+  .experience {  border-left: 1px solid #DA5552;  }
+  li.date {color: $color25;}
+  li.company a {
+    color: $color25;
+    &:before {  background: #DA5552;  }
+  }
+  li.position {color: $color25;}
+}
+
+/* Circle Progress */
+#circle-skills.dark {
+  .progressbar {
+    .progressbar-text {color: $color30 !important;}
+    color: #4492BF;
+    p {color: $color25;}
+  }
+  h3, h4 {color: $color30 !important;}
+}
+
+/* Bar Skills */
+#bar-skills.dark {
+  .progressbar {
+    .circle {
+      color: $color25;
+      p {color: $color25;}
+    }
+  }
+  h3, h4 {color: $color30 !important;}
+  h5 {color: $color12 !important;}
+}
+
+/* Personal Data */
+#personal.dark {
+  h3, h4 {color: $color30 !important;}
+  .one p {color: $color30;}
+  .two p {color: $color25;}
+}
+
+/* Skill Counter */
+#counts.dark:not(.ui-menu-color01) {
+  .count-container {
+    .count {
+      .count-text {  color: $color25;  }
+      .digit {color: $color25;}
+      .count-icon i:before {  color: $color15;  }
+      &:hover .count-icon i:before {color: $hovercolor;}
+    }
+  }
+}
+
+/* Titles */
+.name-title {color: $color01;}
+.subtitle {color: #DA5552;}
+
+/* Button */
+.btn-wh-trans {
+  background: #eda09d;
+  border: 1px solid transparent;
+  color: $color01 !important;
+  &:hover {
+    background: #d0454c;
+    color: $color01 !important;  }
+}
+
+/* Footer */
+footer.dark {
+  h4 {  color: $color01;  }
+  p {color: $color02;}
+  .copyrights p {color: $color02;}
+  .follow .social li a i {
+    background: $color01;
+    &:before {color: #DA5552;}
+    &:hover {
+      background: #eda09d;
+      &:before {color: #DA5552;}
+    }
+  }
+  input {
+    background: rgba(255,255,255, .4);
+    color: #ffffff;
+    &:focus { background-color: #eda09d;}
+  }
+  a.btn {
+    color: $color01 !important;
+    background: #eda09d;
+    &:hover, &:focus {  background: #d0454c;  }
+  }
+  ::-webkit-input-placeholder {  color: rgba(255,255,255, .5);  }
+  :-moz-placeholder {  color: rgba(255,255,255, .5);  }
+  ::-moz-placeholder {  color: rgba(255,255,255, .5);  opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */}
+  :-ms-input-placeholder {  color: rgba(255,255,255, .5);  }
+
+  .cv-link a {
+    padding: 4px 9px 3px 4px;
+    color: $color01;
+    background: transparent;
+    border: 1px solid $color01;
+    i {
+      &:before {color: $color01;}
+    }
+    &:hover {
+      color: #eda09d;
+      background: transparent;
+      border-color: #eda09d;
+      i:before{color: #eda09d;}
+    }
+  }
+}
+
+/* Special Layouts Styles */
+
+/* Mark */
+#mark {
+  .ui-block-color05   {background-color: #D62231 !important;}
+  .ui-block-color06   {background-color: #D75962 !important;}
+  .ui-block-color07   {background-color: #E23636 !important;}
+
+  //header, footer { h5, p, span {color: $color01;} }
+  .dot-block {h5, p, span {color: $color01;}}
+  footer {
+    a.btn {  background: #D75962; &:hover, &:focus {background: $hovercolor;} }
+    h5, p, span {color: $color01;}
+  }
+  .port-filter-light ul li a {
+    background: #f7f7f7;
+    //color: $color02;
+  }
+}
+
+/* James */
+#james {
+  .ui-block-color04   {background-color: #fbe8dd !important;}
+}
+
+/* Helena */
+#helena {}
+
+/* Olivia */
+#olivia {}
+
+/* Samuel */
+#samuel {}
+
+/* Michael */
+#michael {
+
+  .ui-block-color01   {background-color: #fff3ee !important;}
+  .ui-block-color02   {background-color: #f9ede8 !important;}
+  .ui-block-color03   {background-color: #f9e5e0 !important;}
+  .ui-block-color04   {background-color: #fff3ee !important;}
+  .ui-block-color05   {background-color: $color24 !important;}
+  .ui-block-color06   {background-color: $color25 !important;}
+
+  .ui-logo-color01   {background-color: #d0454c !important;}
+  .ui-logo-color02   {background-color: #d8464d !important;}
+  .ui-logo-color03   {background-color: #e0454c !important;}
+  .ui-logo-color04   {background-color: #e8464d !important;}
+  .ui-logo-color05   {background-color: #ee474e !important;}
+  .ui-logo-color06   {background-color: #f3474e !important;}
+
+  #details.dark {
+    h2 {color: $hovercolor;}
+    h5 {color: $color20;}
+    p {color: $color25;}
+  }
+  #circle-skills.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .progressbar-text {background: $color01; border-color: $color01;}
+  }
+  #price.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .price-number{  color: $color12;  }
+    .pricing ul li {
+      border-top: 1px dashed $color06;
+      &:last-child {  border-bottom: 1px dashed $color06; }
+    }
+    .plain {
+      background: $color01;
+      border: 1px solid $color04;
+      color: $color25;
+    }
+    .price-attrs {
+      .price-plan {
+        color: $color17;
+        background: $color02;
+      }
+      .price-descr {  color: $color17;  }
+    }
+    .proposal {
+      background: $color02;
+      border: 1px solid $color04;
+      color: $hovercolor;
+      ul {
+        li {
+          border-top: 1px dashed $color06;
+          &:last-child {  border-bottom: 1px dashed $color06;  }
+        }
+      }
+      .price-number{  color: $hovercolor;  }
+      .price-plan {color: $hovercolor; background: $color01;}
+      .price-descr {  color: $hovercolor;  }
+      .price-conclusion {  color: $hovercolor;  }
+    }
+  }
+
+}

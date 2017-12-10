@@ -1,0 +1,126 @@
+/* Colors */
+@import "../colors.scss";
+
+/* UI Color Set --------------------------------------------- */
+
+/* Backgrounds */
+.ui-bg-color01   {background-color: $color23 !important;}
+.ui-bg-color02   {background-color: $color24 !important;}
+.boxed {  background-image: url('../../images/backgrounds/old_moon.png');  }
+
+/* Blocks */
+.ui-block-color01   {background-color: $color03 !important;}
+.ui-block-color02   {background-color: $cyan !important;}
+.ui-block-color03   {background-color: $blue !important;}
+.ui-block-color04   {background-color: $darkblue !important;}
+
+/* Navigation */
+.ui-menu-color01 {background-color: $green !important;}
+.ui-menu-color02 {background-color: $blue !important;}
+.ui-menu-color03 {background-color: $cyan !important;}
+.ui-menu-color04 {background-color: $orange !important;}
+.ui-menu-color05 {background-color: $red !important;}
+.ui-menu-color06 {background-color: $yellow !important;}
+
+/* Misc Styles */
+.pro-experience h3 {color: $color01;}
+.circle-skills h3 {color: $color01;}
+.name-title {color: $color01;}
+.subtitle {color: $hovercolor;}
+
+
+/* Special Layouts Styles */
+
+/* Mark */
+#mark {
+  .ui-block-color05   {background-color: #4D6892 !important;}
+  .ui-block-color06   {background-color: #6580b0 !important;}
+  .ui-block-color07   {background-color: #CE5374 !important;}
+  footer a.btn {
+    background: #4D6892;
+    &:hover, &:focus {background: $hovercolor;}
+  }
+  .port-filter-light ul li a {
+    background: #f7f7f7;
+  }
+}
+
+/* James */
+#james {}
+
+/* Helena */
+#helena {}
+
+/* Olivia */
+#olivia {}
+
+/* Samuel */
+#samuel {}
+
+/* Michael */
+#michael {
+
+  .ui-block-color01   {background-color: $color03 !important;}
+  .ui-block-color02   {background-color: $color03 !important;}
+  .ui-block-color03   {background-color: $color03 !important;}
+  .ui-block-color04   {background-color: $color23 !important;}
+  .ui-block-color05   {background-color: $color24 !important;}
+  .ui-block-color06   {background-color: $color25 !important;}
+
+  .ui-logo-color01   {background-color: $color07 !important;}
+  .ui-logo-color02   {background-color: $color08 !important;}
+  .ui-logo-color03   {background-color: $color09 !important;}
+  .ui-logo-color04   {background-color: $color10 !important;}
+  .ui-logo-color05   {background-color: $color11 !important;}
+  .ui-logo-color06   {background-color: $color12 !important;}
+
+  #details.dark {
+    h2 {color: $hovercolor;}
+    h5 {color: $color20;}
+    p {color: $color25;}
+  }
+  #circle-skills.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .progressbar-text {background: $color08; border-color: $color08;}
+  }
+  #price.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .price-number{  color: $color12;  }
+    .pricing ul li {
+      border-top: 1px dashed $color06;
+      &:last-child {  border-bottom: 1px dashed $color06; }
+    }
+    .plain {
+      background: $color01;
+      border: 1px solid $color04;
+      color: $color25;
+    }
+    .price-attrs {
+      .price-plan {
+        color: $color17;
+        background: $color02;
+      }
+      .price-descr {  color: $color17;  }
+    }
+    .proposal {
+      background: $color02;
+      border: 1px solid $color04;
+      color: $hovercolor;
+      ul {
+        li {
+          border-top: 1px dashed $color06;
+          &:last-child {  border-bottom: 1px dashed $color06;  }
+        }
+      }
+      .price-number{  color: $hovercolor;  }
+      .price-plan {color: $hovercolor; background: $color01;}
+      .price-descr {  color: $hovercolor;  }
+      .price-conclusion {  color: $hovercolor;  }
+    }
+  }
+
+}

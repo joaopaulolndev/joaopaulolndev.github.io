@@ -1,0 +1,294 @@
+/* Colors */
+@import "../colors.scss";
+
+/* UI Color Set --------------------------------------------- */
+
+/* Backgrounds */
+.ui-bg-color01   {background-color: $color02 !important;}
+.ui-bg-color02   {background-color: $color20 !important;}
+.boxed {  background-image: url('../../images/backgrounds/footer_lodyas.png');  }
+
+/* Blocks */
+.ui-block-color01   {background-color: $color05 !important;}
+.ui-block-color02   {background-color: $color04 !important;}
+.ui-block-color03   {background-color: $color03 !important;}
+.ui-block-color04   {background-color: $color05 !important;}
+
+/* Menu */
+.ui-menu-color01 {background-color: $green !important;}
+.ui-menu-color02 {background-color: $blue !important;}
+.ui-menu-color03 {background-color: $cyan !important;}
+.ui-menu-color04 {background-color: $orange !important;}
+.ui-menu-color05 {background-color: $red !important;}
+.ui-menu-color06 {background-color: $yellow !important;}
+
+/* Navigation */
+#top-navigation {
+  .name-title h1 {color: $color20;}
+  .ident {
+    .vc-name {
+      .position {
+        h2 {  color: $color20;  }
+        .position-title {  background: $color03;  }
+        .pdf {
+          background: rgba(0, 0, 0, 0.05);
+          a i:before {  color: $color20;  }
+        }
+      }
+      .name .name-pdf {
+        background: rgba(0, 0, 0, 0.03);
+        a i:before {  color: $color20;  }
+      }
+    }
+  }
+}
+
+/* Menu Hover Effect */
+.hvr-sweep-to-bottom:before {  background: rgba(0, 0, 0, 0.03);  }
+.hvr-sweep-to-right:before {  background: rgba(0, 0, 0, 0.03);  }
+
+/* Pro Experience */
+#pro-experience.dark {
+  h3 {color: $color30;}
+  .experience {  border-left: 1px solid $color12;  }
+  li.date {color: $color25;}
+  li.company a {
+    color: $color25;
+    &:before {  background: $color12;  }
+  }
+  li.position {color: $color25;}
+}
+
+/* Circle Skills */
+#circle-skills.dark {
+  .progressbar {
+    .progressbar-text {color: $color30 !important;}
+    color: #4492BF;
+    p {color: $color25;}
+  }
+  h3, h4 {color: $color30 !important;}
+}
+
+/* Bar Skills */
+#bar-skills.dark {
+  .progressbar {
+    .circle {
+      color: $color25;
+      p {color: $color25;}
+    }
+  }
+  h3, h4 {color: $color30 !important;}
+  h5 {color: $color17 !important;}
+}
+
+/* Personal Data */
+#personal.dark {
+  h3, h4 {color: $color30 !important;}
+  .one p {color: $color30;}
+  .two p {color: $color25;}
+}
+
+/* Skills Counter */
+#counts.dark {
+  .count-container {
+    .count {
+      .count-text {  color: $color25;  }
+      .digit {color: $color25;}
+      .count-icon i:before {  color: $color15;  }
+      &:hover .count-icon i:before {color: $hovercolor;}
+    }
+  }
+}
+
+/* Details */
+#details.dark {
+  h3, h4, h5 {color: $color30 !important;}
+  p {color: $color25 !important;}
+}
+
+.subtitle {color: $hovercolor;}
+#details i::before {color: $hovercolor;}
+
+/* Buttons */
+.btn-wh-trans {
+  background: $color07;
+  border: 1px solid transparent;
+  color: $color01 !important;
+  &:hover {
+    background: $color12;
+    color: $color01 !important;  }
+}
+.name-title {color: $color01;}
+
+/* Footer */
+footer.dark {
+  //border-top: 3px solid $color17;
+  h5 {  color: $color25;  }
+  p {color: $color20;}
+  .copyrights p {color: $color20;}
+  .follow .social li a i {
+    background: $color09;
+    &:before {color: $color01;}
+    &:hover {
+      background: $hovercolor;
+      &:before {color: $color01;}
+    }
+  }
+  input {
+    background: $color04;
+    color: $color25;
+  }
+  a.btn {
+    color: $color01 !important;
+    background: $color09;
+    &:hover, &:focus {  background: $hovercolor;  }
+  }
+  ::-webkit-input-placeholder {  color: $color09;  }
+  :-moz-placeholder {  color: $color09;  }
+  ::-moz-placeholder {  color: $color09;  opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */}
+  :-ms-input-placeholder {  color: $color09;  }
+
+  .cv-link a {
+    padding: 4px 9px 3px 4px;
+    color: $color25;
+    background: transparent;
+    border: 1px solid $color05;
+    i {
+      &:before {color: $color15;}
+    }
+    &:hover {
+      border-color: $hovercolor; background: transparent; color: $hovercolor;
+      i:before {color: $hovercolor;}
+    }
+  }
+}
+
+
+/* Special Layout Styles */
+
+/* Mark */
+#mark {
+  background-image: url('../../images/backgrounds/crossword.png');
+  .ui-block-color05   {background-color: $color05 !important;}
+  .ui-block-color06   {background-color: $color05 !important;}
+  .ui-block-color07   {background-color: $color04 !important;}
+
+  .ui-menu-color01 {background-color: $color03 !important;}
+  .ui-menu-color02 {background-color: $color03 !important;}
+  .ui-menu-color03 {background-color: $color03 !important;}
+  .ui-menu-color04 {background-color: $color03 !important;}
+  .ui-menu-color05 {background-color: $color03 !important;}
+  .ui-menu-color06 {background-color: $color03 !important;}
+
+  .name-title {
+    h2 {color: $color25;}
+    .cd-intro { h4, span {color: $color25;} }
+  }
+  #top-navigation .menuitem a {
+    span {  color: $color20;  }
+    i:before {color: $color10;}
+  }
+  #page-title {
+    h2 {color: $color25 !important;}
+    h5 {color: $color17 !important;}
+    p {color: $color25 !important;}
+  }
+  .cv-pdf a i:before,
+  .social-network a i:before {  color: $color20;  }
+  footer {
+    a.btn {  background: $color10; &:hover, &:focus {background: $hovercolor;} }
+    input {background: $color03;}
+  }
+  .port-filter-light ul li a {
+    background: $color03;
+    color: $color20;
+    &:hover, &:focus {  color: $color01;  }
+  }
+}
+
+/* James */
+#james {
+  .ui-block-color01   {background-color: $color02 !important;}
+  .ui-block-color02   {background-color: $color03 !important;}
+  .ui-block-color04   {background-color: $color01 !important;}
+  #counts.dark {
+    background-color: $color02 !important;
+  }
+}
+
+/* Helena */
+#helena {}
+
+/* Olivia */
+#olivia {}
+
+/* Samuel */
+#samuel {}
+
+/* Michael */
+#michael {
+
+  .ui-block-color01   {background-color: $color03 !important;}
+  .ui-block-color02   {background-color: $color03 !important;}
+  .ui-block-color03   {background-color: $color03 !important;}
+  .ui-block-color04   {background-color: $color23 !important;}
+  .ui-block-color05   {background-color: $color24 !important;}
+  .ui-block-color06   {background-color: $color25 !important;}
+
+  .ui-logo-color01   {background-color: $color07 !important;}
+  .ui-logo-color02   {background-color: $color08 !important;}
+  .ui-logo-color03   {background-color: $color09 !important;}
+  .ui-logo-color04   {background-color: $color10 !important;}
+  .ui-logo-color05   {background-color: $color11 !important;}
+  .ui-logo-color06   {background-color: $color12 !important;}
+
+  #details.dark {
+    h2 {color: $hovercolor;}
+    h5 {color: $color20;}
+    p {color: $color25;}
+  }
+  #circle-skills.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .progressbar-text {background: $color08; border-color: $color08;}
+  }
+  #price.dark {
+    .title {color: $color25;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .price-number{  color: $color12;  }
+    .pricing ul li {
+      border-top: 1px dashed $color06;
+      &:last-child {  border-bottom: 1px dashed $color06; }
+    }
+    .plain {
+      background: $color01;
+      border: 1px solid $color04;
+      color: $color25;
+    }
+    .price-attrs {
+      .price-plan {
+        color: $color17;
+        background: $color02;
+      }
+      .price-descr {  color: $color17;  }
+    }
+    .proposal {
+      background: $color02;
+      border: 1px solid $color04;
+      color: $hovercolor;
+      ul {
+        li {
+          border-top: 1px dashed $color06;
+          &:last-child {  border-bottom: 1px dashed $color06;  }
+        }
+      }
+      .price-number{  color: $hovercolor;  }
+      .price-plan {color: $hovercolor; background: $color01;}
+      .price-descr {  color: $hovercolor;  }
+      .price-conclusion {  color: $hovercolor;  }
+    }
+  }
+
+}

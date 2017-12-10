@@ -1,0 +1,193 @@
+/* Colors */
+@import "../colors.scss";
+
+/* UI Color Set --------------------------------------------- */
+
+/* Backgrounds */
+.ui-bg-color01   {background-color: $color25 !important;}
+.ui-bg-color02   {background-color: $color26 !important;}
+.boxed {  background-image: url('../../images/backgrounds/old_moon.png');  }
+
+/* Blocks */
+.ui-block-color01   {background-color: #f2f2f2 !important;}
+.ui-block-color02   {background-color: $color03 !important;}
+.ui-block-color03   {background-color: $color02 !important;}
+.ui-block-color04   {background-color: $color26 !important;}
+
+/* Menu */
+.ui-menu-color01 {background-color: $color24 !important;}
+.ui-menu-color02 {background-color: $color25 !important;}
+.ui-menu-color03 {background-color: $color26 !important;}
+.ui-menu-color04 {background-color: $color27 !important;}
+.ui-menu-color05 {background-color: $color28 !important;}
+.ui-menu-color06 {background-color: $color29 !important;}
+
+/* Misc Styles */
+.circle-skills h3 {color: $color01;}
+.name-title {color: $color01;}
+.subtitle {color: $color10;}
+#details i::before {color: $color12;}
+
+/* Pro Experience */
+#pro-experience.dark {
+  h3 {color: $color30;}
+  .experience {  border-left: 1px solid $color12;  }
+  li.date {color: $color25;}
+  li.company a {
+    color: $color25;
+    &:before {  background: $color12;  }
+  }
+  li.position {color: $color25;}
+}
+
+/* Personal Data */
+#personal.dark {
+  h3, h4 {color: $color30 !important;}
+  .one p {color: $color30;}
+  .two p {color: $color25;}
+}
+
+/* Button */
+.btn-wh-trans {
+  background: $color10;
+  border: 1px solid transparent;
+  color: $color01 !important;
+  &:hover {
+    background: $hovercolor;
+    color: $color01 !important;  }
+}
+
+/* Circle Skills */
+#circle-skills.dark {
+  .progressbar {
+    .progressbar-text {color: $color30;}
+    color: #4492BF;
+    p {color: $color25;}
+  }
+  h3, h4 {color: $color30;}
+}
+
+/* Skills Counter */
+#counts.dark {
+  .count-container {
+    .count {
+      .count-text {  color: $color25;  }
+      .digit {color: $color25;}
+      .count-icon i:before {  color: $color15;  }
+      &:hover .count-icon i:before {color: $hovercolor;}
+    }
+  }
+}
+
+/* Bar Skills */
+#bar-skills.dark {
+  .progressbar {
+    .circle {
+      color: $color25;
+      p {color: $color25;}
+    }
+  }
+  h3, h4 {color: $color30 !important;}
+  h5 {color: $color12 !important;}
+}
+
+/* Footer */
+footer.dark {
+  .cv-link a {
+    padding: 4px 9px 3px 4px;
+    color: $color01;
+    background: transparent;
+    border: 1px solid $color17;
+    i { &:before {color: $color01;} }
+    &:hover {  border-color: $hovercolor; background: transparent;  }
+  }
+  .follow .social li a i {
+    background: $color22;
+    &:before {color: $color03;}
+    &:hover {  background: $hovercolor; &:before {color: $color01;} }
+  }
+  a.btn {
+    background: $color22;
+    &:hover, &:focus {  background: $hovercolor;  }
+  }
+}
+
+
+/* Mark Layout */
+#mark {
+  .ui-block-color05   {background-color: #282828 !important;}
+  .ui-block-color06   {background-color: #767573 !important;}
+  .ui-block-color07   {background-color: #494846 !important;}
+  footer {
+    a.btn {
+      background: #4f4e4c;
+      &:hover, &:focus {background: $hovercolor;}
+    }
+  }
+  .port-filter-light ul li a {
+    background: #f7f7f7;
+    //color: $color02;
+  }
+}
+
+/* James */
+#james {
+  #counts.dark {
+    .count-container {
+      .count {
+        .count-text {  color: $color02;  }
+        .digit {color: $color02;}
+        .count-icon i:before {  color: $color03;  }
+        &:hover .count-icon i:before {color: $hovercolor;}
+      }
+    }
+  }
+}
+
+/* Helena */
+#helena {}
+
+/* Olivia */
+#olivia {}
+
+/* Samuel */
+#samuel {
+
+  #circle-skills.dark {
+    .title {color: $color25;}
+    .subtitle {color: #b0e0fa;}
+    h4 {color: $color25;}
+    p {color: $color25;}
+    .progressbar-text {color: $color25 !important;}
+  }
+
+}
+
+/* Michael */
+#michael {
+  //.ui-menu-color01 {background-color: $color26 !important;}
+  //.ui-menu-color02 {background-color: $color26 !important;}
+  //.ui-menu-color03 {background-color: $color26 !important;}
+  //.ui-menu-color04 {background-color: $color26 !important;}
+  //.ui-menu-color05 {background-color: $color26 !important;}
+  //.ui-menu-color06 {background-color: $color26 !important;}
+
+  .ui-block-color01   {background-color: $color24 !important;}
+  .ui-block-color02   {background-color: $color25 !important;}
+  .ui-block-color03   {background-color: $color26 !important;}
+  .ui-block-color04   {background-color: $color27 !important;}
+  .ui-block-color05   {background-color: $color28 !important;}
+  .ui-block-color06   {background-color: $color29 !important;}
+
+  .ui-logo-color01   {background-color: $color24 !important;}
+  .ui-logo-color02   {background-color: $color25 !important;}
+  .ui-logo-color03   {background-color: $color26 !important;}
+  .ui-logo-color04   {background-color: $color27 !important;}
+  .ui-logo-color05   {background-color: $color28 !important;}
+  .ui-logo-color06   {background-color: $color29 !important;}
+
+  #circle-skills.dark {
+    .progressbar.semicircle {  }
+    h3, h4, p {color: $color01;}
+  }
+}
